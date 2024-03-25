@@ -25,6 +25,9 @@ $(document).ready(function() {
                     // Change page size and orientation to A3
                     doc.pageOrientation = 'landscape';
                     doc.pageSize = 'A3';
+                    doc.textCenter;
+
+                    
                 }
             }, 
             'print', 
@@ -37,6 +40,46 @@ $(document).ready(function() {
     .appendTo('#example_wrapper .col-md-6:eq(0)');
     
 });
+
+
+
+// $(document).ready(function() {
+
+//     var table = $('#example').DataTable({
+
+//         buttons: [
+//             'copy', 
+//             'pdf', 
+//             'excel', 
+//             {
+//                 extend: 'pdf',
+//                 customize: function (doc) {
+//                     // Change page size and orientation to A3
+//                     doc.pageOrientation = 'landscape';
+//                     doc.pageSize = 'A3';
+
+//                     // Adjust column text size and alignment
+//                     doc.content[1].table.widths = Array(doc.content[1].table.body[0].length + 1).join('*').split('*');
+//                     doc.defaultStyle.fontSize = 12; // Set default font size
+//                     doc.styles.tableHeader.fontSize = 12; // Set table header font size
+//                     doc.styles.tableBodyEven.fontSize = 10; // Set even rows font size
+//                     doc.styles.tableBodyOdd.fontSize = 10; // Set odd rows font size
+//                     doc.styles.tableBody.alignment = 'center'; // Set table body alignment to center
+//                     doc.styles.tableHeader.alignment = 'center'; // Set table header alignment to center
+//                     doc.pageOrientation = 'A3'; // Set table header alignment to center
+//                 }
+//             }, 
+//             'print', 
+//             'add', 
+//             'remove'
+//         ]
+//     });
+
+//     table.buttons().container()
+//     .appendTo('#example_wrapper .col-md-6:eq(0)');
+    
+// });
+
 
 
 
