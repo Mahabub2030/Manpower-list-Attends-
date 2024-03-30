@@ -127,6 +127,42 @@ $(document).ready(function() {
 });
 
 
+
+
+// good exeses
+// $(document).ready(function() {
+//     var password = "your_password"; // Change this to your desired password
+//     var table = $('#example').DataTable({
+//         buttons: [
+//             'copy', 
+//             'csv', 
+//             'excel', 
+//             {
+//                 extend: 'pdf',
+//                 text: 'PDF', // Button text
+//                 action: function (e, dt, button, config) {
+//                     var enteredPassword = prompt("Enter password to download the PDF file:");
+//                     if (enteredPassword === password) {
+//                         $.fn.DataTable.ext.buttons.pdfHtml5.action.call(this, e, dt, button, config);
+//                     } else {
+//                         alert("Incorrect password! Please try again.");
+//                     }
+//                 }
+//             }, 
+//             'print', 
+//             'add', 
+//             'remove'
+//         ]
+//     });
+
+//     // Apply text-center class to 9th and 10th columns
+//     table.column(8).nodes().to$().addClass('text-center');
+//     table.column(9).nodes().to$().addClass('text-center');
+
+//     table.buttons().container().appendTo('#example_wrapper .col-md-6:eq(0)');
+// });
+
+
 // $(document).ready(function() {
 //     var table = $('#example').DataTable({
 //         select: true, // Enable row selection
