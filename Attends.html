@@ -1,0 +1,2384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Sheet of May-2024</title>
+
+    <link rel="stylesheet" href="./data table/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./data table/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.8.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="./img/logo.jpg">
+</head>
+
+<body>
+
+    <div class="border-warning-subtle grid grid-flow-row-dense rounded-3xl">
+        <div class="row">
+            <div class="col">
+                <div class="data_table">
+                    <table id="example" class="table-hover table">
+                        <thead class="table-dark">
+                            <tr class="text-capitalize">
+                                <th colspan="3" class="text-center text-bg-Info fw-bolder text-lg"></th>
+                                <th colspan="7" class="text-center text-bg-Info fw-bolder text-lg">
+                                    <h5>Week 1 of May-2024</h5>
+                                </th>
+                                <th colspan="7" class="text-center text-bg-Info fw-bolder text-lg">
+                                    <h5>Week 2 of May-2024</h5>
+                                </th>
+                                <th colspan="7" class="text-center text-bg-Info fw-bolder text-lg">
+                                    <h5>Week 3 of May-2024</h5>
+                                </th>
+                                <th colspan="7" class="text-center text-bg-Info fw-bolder text-lg">
+                                    <h5>Week 4 of May-2024</h5>
+                                </th>
+                                <th colspan="3" class="text-center text-bg-Info fw-bolder text-lg">
+                                    <h5>Week 5 of May-2024</h5>
+                                </th>
+                            </tr>
+                            <tr class="text-capitalize">
+                                <th class="text-bg-Info fw-bolder col-auto text-center text-lg">
+                                    <h5>S.N</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center col-auto text-lg">
+                                    <h5>Employee ID No.</h5>
+                                </th>
+                                <th class="text-bg-success fw-bolder text-center colo-4
+                                 text-lg">
+                                    <h5>Employees Name</h5>
+                                </th>
+                                <!-- Job -title -->
+                                <th class="text-bg-success fw-bolder text-center col-4 text-lg">
+                                    <h5>Job title</h5>
+                                </th>
+                                <!-- Days of Week 1 -->
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Wed, 1</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Thu, 2</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Fri, 3</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Sat, 4</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Sun, 5</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Mon, 6</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Tue, 7</h5>
+                                </th>
+                                <!-- Days of Week 2 -->
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Wed, 8</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Thu, 9</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Fri, 10</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Sat, 11</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Sun, 12</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Mon, 13</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Tue, 14</h5>
+                                </th>
+                                <!-- Days of Week 3 -->
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Wed, 15</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Thu, 16</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Fri, 17</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Sat, 18</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Sun, 19</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Mon, 20</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Tue, 21</h5>
+                                </th>
+                                <!-- Days of Week 4 -->
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Wed, 22</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Thu, 23</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Fri, 24</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Sat, 25</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Sun, 26</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Mon, 27</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Tue, 28</h5>
+                                </th>
+                                <!-- Days of Week 5 -->
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Wed, 29</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Thu, 30</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Fri, 31</h5>
+                                </th>
+                                <th class="text-bg-Info fw-bolder text-center text-lg">
+                                    <h5>Total</h5>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>1111825723</td>
+                                <td>Abdulhakim Alammar</td>
+                                <td>Projicet Manager</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>2254394725</td>
+                                <td>Shoeib Abou Zeid Mahmoud Awad</td>
+                                <td>Operation Manager</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>1063800229</td>
+                                <td>Eman  Alnasser</td>
+                                <td>Help Desk</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>1008147140</td>
+                                <td>Zahara</td>
+                                <td>Help Desk</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>1002929196</td>
+                                <td>Saud Abdulaziz Albagawi</td>
+                                <td>Chief Section Head</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>1003490479</td>
+                                <td>SALMAN DAWOOD MUBARAK </td>
+                                <td>Bayer</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>1004086458</td>
+                                <td>Khalid Saud Alkhaldi </td>
+                                <td>GRO office</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>1009306679</td>
+                                <td>SADIK SAIDUR MAHADI</td>
+                                <td>Supervisor</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>1010625711</td>
+                                <td>Moneer Abdulhadi</td>
+                                <td>HSE Supervisor</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>1010686366</td>
+                                <td>FAWAZ MUBARAK</td>
+                                <td>Lead Gardner</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>1012990964</td>
+                                <td>Neezar Abdulrahim</td>
+                                <td>Data Process Opertor</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>1014293904</td>
+                                <td>ADNAN ALAWI</td>
+                                <td>Lead Gardner</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>1028504395</td>
+                                <td>Hussain Salleh</td>
+                                <td>Equp opertor</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>1028689220</td>
+                                <td>Mozah Farss Aldossary</td>
+                                <td>ForMan</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>1030471211</td>
+                                <td>ALI ABDUL HADI</td>
+                                <td>Horticulturest</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>1031410424</td>
+                                <td>Ali Jaffar Alhaddad</td>
+                                <td>Electrician</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td>1045951728</td>
+                                <td>MUSTAFA DAWOOD MUBARAK</td>
+                                <td>Equp opertor</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>1050007960</td>
+                                <td>YASSER ABDULHADI</td>
+                                <td>Supervisor</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>19</td>
+                                <td>1059685774</td>
+                                <td>Anwar Almubarak</td>
+                                <td>Forman</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>1059821973</td>
+                                <td>Ahmed Dawood</td>
+                                <td>Welder</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>21</td>
+                                <td>1060806096</td>
+                                <td>SALMAN BIN ALI</td>
+                                <td>Supervisor</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td>1074080902</td>
+                                <td>Ali Bin Hussein</td>
+                                <td>Supervisor</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>23</td>
+                                <td>1079836175</td>
+                                <td>Hassan Ahmad AlZahrani</td>
+                                <td>Material Expediter</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>1085426169</td>
+                                <td>Adnan Hussain</td>
+                                <td>Mechanic</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>25</td>
+                                <td>1087109466</td>
+                                <td>Ahmed Al-Dossary</td>
+                                <td>Project Admin</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>26</td>
+                                <td>1087989883</td>
+                                <td>Ibrahim Dawood Jassim Al Mubarak</td>
+                                <td>Security</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>27</td>
+                                <td>1093276606</td>
+                                <td>Hashem hussain Alshakuri</td>
+                                <td>Forman Mechanic</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>28</td>
+                                <td>1097113474</td>
+                                <td>Salim Zawayria</td>
+                                <td>Forman Mechanic</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>29</td>
+                                <td>1102742648</td>
+                                <td>Turki Yahya</td>
+                                <td>GRO office</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>1103136923</td>
+                                <td>Ali Hassan ALMAHASNAH</td>
+                                <td>Engineer</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>31</td>
+                                <td>1114777830</td>
+                                <td>Mahadi Hassan</td>
+                                <td>Supervisor</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>32</td>
+                                <td>2117833687</td>
+                                <td>YAZAN ABU OBAYD</td>
+                                <td>Supervisor</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>33</td>
+                                <td>2182413589</td>
+                                <td>Mohd Amin Jinat</td>
+                                <td>Forman</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>34</td>
+                                <td>2182500070</td>
+                                <td>Billal W. Miah</td>
+                                <td>Equp opertor</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>35</td>
+                                <td>2182562435</td>
+                                <td>Ahsan Ulla Moksed Ali</td>
+                                <td>Driver</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>36</td>
+                                <td>2194529679</td>
+                                <td>Sinon Arrofo</td>
+                                <td>Supervisor</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>37</td>
+                                <td>2195631219</td>
+                                <td>Delower Hossain</td>
+                                <td>Gardener</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>38</td>
+                                <td>2231024064</td>
+                                <td>Shafiqul Islam Hazrat Ali</td>
+                                <td>irrigation technician</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>39</td>
+                                <td>2234812275</td>
+                                <td>Shadat Hossan</td>
+                                <td>Driver</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>40</td>
+                                <td>2237074196</td>
+                                <td>Shukur Mohd Ali</td>
+                                <td>Labour</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>41</td>
+                                <td>2237075912</td>
+                                <td>Assauduzamman</td>
+                                <td>irrigation specialist</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>42</td>
+                                <td>2237076050</td>
+                                <td>Mofiz Nayeb Ali</td>
+                                <td>Forman</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>43</td>
+                                <td>2237342916</td>
+                                <td>Lal Miah Messer</td>
+                                <td>Forman</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>44</td>
+                                <td>2251498545</td>
+                                <td>IMRAN SABJI FAROSH</td>
+                                <td>Office Boy</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>45</td>
+                                <td>2253768424</td>
+                                <td>BAKIR RIFAEY MOUSA AWAD</td>
+                                <td>Lead Gardner</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>46</td>
+                                <td>2255145613</td>
+                                <td>MOHAMMED MUSLIM </td>
+                                <td>Pipe fitter</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>47</td>
+                                <td>2259560106</td>
+                                <td>Robert morales</td>
+                                <td>Supervisor</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>48</td>
+                                <td>2268090160</td>
+                                <td>WASEEM CHHIMPA</td>
+                                <td>Lab Chemist</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>49</td>
+                                <td>2268099096</td>
+                                <td>Mohammad Luqman</td>
+                                <td>pump operator</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                            <tr>
+                                <td>50</td>
+                                <td>2268207699</td>
+                                <td>Arnulfo Lauron</td>
+                                <td>Forman</td>
+                                <!-- Days of Week 1 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 2 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 3 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 4 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <!-- Days of Week 5 -->
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true">P</td>
+                                <td contenteditable="true" style="background-color: yellow;">H</td>
+                                <td contenteditable="true" id="total-p"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./data table/js/bootsrap.bundle.min.js"></script>
+    <script src="./data table/js/jquery-3.6.0.min.js"></script>
+    <script src="./data table/js/datatables.min.js"></script>
+    <script src="./data table/js/pdfmake.min.js"></script>
+    <script src="./data table/js/vfs_fonts.js"></script>
+    <script src="./data table/js/custom.js"></script>
+    <script src="./index.js"></script>
+    <script src="./script.js"></script>
+
+    <script>
+        // Function to calculate total P and total H
+        function calculateTotals() {
+            var totalP = 0;
+            var totalH = 0;
+
+            // Iterate through each row in the table body
+            $('#example tbody tr').each(function () {
+                // Iterate through each cell in the row
+                $(this).find('td').each(function (index) {
+                    // Skip first three columns (S.N, Employee ID No., Employees Name)
+                    if (index > 2 && index < 34) {
+                        var value = $(this).text().trim();
+                        // Increment totalP if the cell contains 'P'
+                        if (value === 'P') {
+                            totalP++;
+                        }
+                        // Increment totalH if the cell contains 'H'
+                        else if (value === 'H') {
+                            totalH++;
+                        }
+                    }
+                });
+            });
+            // Update the total P cell with the calculated value
+            $('#total-p').text(totalP);
+        }
+
+        // Call the function initially to calculate totals
+        calculateTotals();
+
+        // Add event listener to table cells for input change
+        $('#example tbody td').on('input', function () {
+            // Recalculate totals whenever the input changes
+            calculateTotals();
+        });
+
+        // Add event listener to table cells for delete 'P'
+        $('#example tbody td').on('dblclick', function () {
+            // Check if the content is 'P'
+            if ($(this).text().trim() === 'P') {
+                // Delete the content by making it empty
+                $(this).text('');
+                // Recalculate totals after deleting 'P'
+                calculateTotals();
+            }
+        });
+
+
+    </script>
+
+</body>
+
+</html>
